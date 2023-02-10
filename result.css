@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+.first-view{
+    height: 20vh;
+    background-image: url(../z_images/z_common/z_common.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.first-view-text{
+    width: 100%;
+    max-width: 1500px;
+    text-align: center;
+}
+
+.list{
+    background-color: #f8f8f8;
+    padding-top: 45px;
+    padding-bottom: 55px;
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    overflow: scroll;
+}
+
+.list li{
+    flex-shrink: 0;
+    width: 400px;
+    margin-left: 75px;
+}
+
+.list li:first-child{
+    margin-left: 0;
+}
+.sub-text{
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.sub-text h4{
+    line-height: 40px;
+    text-align: center;
+}
+
+.sub-text p{
+    line-height: 40px;
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    .first-view{
+        height: 15vh;
+    }
+
+    .list{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .list li{
+        width: 330px;
+        margin-left: 20px;
+    }
+
+    .sub-text{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .sub-text h4{
+        font-size: 20px;
+    }
+    .sub-text p{
+        font-size: 15.5px;
+    }
+}
