@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+.first-view{
+    height: 20vh;
+    background-image: url(../z_images/z_common/z_common.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.first-view-text{
+    width: 100%;
+    max-width: 1500px;
+    text-align: center;
+}
+
+.member{
+    max-width: 1500px;
+    line-height: 45px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.member h4{
+    max-width: 1500px;
+    margin-left: 60px;
+}
+
+.member p{
+    max-width: 1500px;
+    margin-left: 100px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.member a{
+    font-weight: bold;
+}
+
+@media (max-width: 800px){
+    .first-view{
+        height: 15vh;
+    }
+
+    .member h4{
+        margin-left: 50px;
+        margin-top: 15px;
+    }
+
+    .member p{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
